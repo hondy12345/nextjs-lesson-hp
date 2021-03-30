@@ -1,7 +1,7 @@
 import * as React from "react";
 import Link from "next/link";
 
-const Post = (props) => {
+export default function Post(props) {
   const { post } = props;
   return (
     <div>
@@ -14,6 +14,4 @@ const Post = (props) => {
       </Link>
     </div>
   );
-};
-
-export default Post;
+}
